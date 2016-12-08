@@ -8,6 +8,9 @@ sass:
  style: compressed
  
  
+# Tracker
+analytics: UA-83979019-1
+ 
 ### exclude the instructions / write-up in the README.md
 exclude:
 - README.md
