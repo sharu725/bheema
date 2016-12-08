@@ -320,3 +320,11 @@ footer {
     text-align: center;
 
 }
+/* Add class="video" to video embeds */
+.video {
+    width: 100%;
+    height: 360px;
+    @include media-query($on-palm) {
+        height: 250px;
+    }
+}
