@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Usage Guide"
+categories: jekyll update
+img: lost-3.jpg
+categories: two
+---
+
+Use the guide to prepare good looking posts!
+
+## Image
+
+- Use image of any size. 
+- Keep them inside ``img`` folder.
+- Mention image name in the front matter as shown below
+
+{% highlight yml %}
+---
+layout: post
+title:  "Some title"
+categories: some category
+img: image-name.jpg
+---
+{% endhighlight %}

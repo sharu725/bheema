@@ -1,0 +1,13 @@
+#Created by webjeda - http://webjeda.com
+
+title: Bheema #Keep it short
+
+baseurl: /bheema
+
+sass:
+ style: compressed
+ 
+ 
+### exclude the instructions / write-up in the README.md
+exclude:
+- README.md
