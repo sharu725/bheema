@@ -101,24 +101,18 @@ pre {
 .link {
     float: left;
     margin: 0;
-    border-right: 1px solid #eee;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
    
 }
 
 .link a {
     display: inline-block;
-    color: #eee;
+    color: rgba(255, 255, 255, 0.7);
     text-align: center;
     padding: 2px 16px;
     text-decoration: none;
 }
-a.dropbtn {
-    display: inline-block;
-    color: #eee;
-    text-align: center;
-    padding: 2px 1px 2px 16px;
-    text-decoration: none;
-}
+
 
 .link a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(123, 123, 123, 0.36);
@@ -128,12 +122,6 @@ a.dropbtn {
 .link .dropdown {
     display: inline-block;
 
-}
-
-.dropdown:after{
-   content:"\25BC";
-    color: #fff;
-    display: inline-block;
 }
 
 .dropdown-content {
@@ -305,6 +293,9 @@ a.dropbtn {
     background-position: center center;
     background-size: cover;
     margin-bottom: 1em;
+    @include media-query($on-palm) {
+       height: 200px; 
+    }
 }
 
 /* Post and page title */
