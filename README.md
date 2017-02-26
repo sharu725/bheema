@@ -27,11 +27,11 @@ This process will host the theme as a **Project Page**. You can also download th
 
 Default theme will look like this
 
-![webjeda cards jekyll theme](/img/bheema-jekyll-theme.png)
+![webjeda cards jekyll theme](https://github.com/sharu725/bheema/raw/master/img/bheema-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda cards responsive jekyll theme](/img/bheema-jekyll-responsive-theme-screenshot.png)
+![webjeda cards responsive jekyll theme](https://github.com/sharu725/bheema/raw/master/img/bheema-jekyll-responsive-theme-screenshot.png)
 
 
 # Development
