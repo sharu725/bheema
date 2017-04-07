@@ -66,8 +66,8 @@ pre {
 
 /* Main header */
 .header {
-  background: #37c376;
-  background-repeat: repeat;
+  background: #424242;
+
   background-position: center center;
   min-height: 220px;
   position: relative;
@@ -80,7 +80,7 @@ pre {
 .headline {
   text-align: center;
   font-weight: 600;
-  font-size: 120px;
+  font-size: 80px;
   height: 100px;
   line-height: 200px;
   color: #fefefe;
@@ -260,9 +260,8 @@ pre {
 
 .bg {
     box-shadow: 0 0 4px #ddd;
-     background: #fbff0b; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #fbff0b , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #fbff0b , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: #fafafa; /* fallback for old browsers */
+
 }
 
 .border {
