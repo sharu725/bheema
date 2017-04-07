@@ -48,7 +48,7 @@ code {
 
 code {
     padding: 1px 5px;
-    
+
 }
 
 pre {
@@ -104,7 +104,7 @@ pre {
     float: left;
     margin: 0;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
-   
+
 }
 
 .link a {
@@ -168,7 +168,7 @@ pre {
 }
 .news-piece-1 {
     height: 350px;
-    
+
 }
 .news-piece-2 {
    height: 265px;
@@ -208,7 +208,7 @@ pre {
 @media (min-width: 550px) {
 .eight.columns.news-piece{
     width: 66.66666%;
-    
+
 }
 
 .four.columns.news-piece {
@@ -245,7 +245,7 @@ pre {
             font-size: 130%;
     }
     &:before {
-      content: open-quote;  
+      content: open-quote;
 
     }
     &:after{
@@ -297,7 +297,7 @@ pre {
     background-size: cover;
     margin-bottom: 1em;
     @include media-query($on-palm) {
-       height: 200px; 
+       height: 200px;
     }
 }
 
