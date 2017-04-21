@@ -10,7 +10,7 @@ body {
 /* Main container */
 .container {
     @include media-query($on-palm) {
-        padding: 0;
+        padding: 0px;
     }
 }
 

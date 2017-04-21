@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 <div class="row row-border">
-  {% for post in site.posts limit: 20 %}
+  {% for post in site.posts  %}
     <a href="{{site.baseurl}}{{post.url}}">
      <div class="four columns news-piece news-piece-2" style="background-image: url({{site.baseurl}}/img/{{post.img}});">
      <p class="news-title">{{post.title}}</p>
