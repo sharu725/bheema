@@ -1,8 +1,2 @@
-Demo: [http://webjeda.com/bheema](http://webjeda.com/bheema)
-
-## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready.
-
-For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
+# blog site for film 101
+a github pages website that uses webjeda [website design](https://github.com/sharu725/bheema) bheema, for my film 101 assessment blog

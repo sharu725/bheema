@@ -2,15 +2,6 @@
 layout: post
 title: About
 permalink: /about/
-img: bheema-2.PNG
+img: about.jpg
 ---
-
-In the Hindu epic Mahabharata, Bheema, is the second of the Pandavas. The Mahabharata relates many events which portray the immense might of Bheema. Bhima is responsible for slaying all hundred Kaurava brothers in the Kurukshetra War.
-
-At the time Bhima kills the rakshasa(evil) Hidimba, he meets his sister Hidimbi; they eventually get married and have a son, [Ghatotkacha](http://webjeda.com/gatok/about/). 
-
-
-<iframe class="video" src="https://www.youtube.com/embed/6qqIy97WbGA" frameborder="0" allowfullscreen></iframe>
-
-
-Find more themes: [https://jekyll-themes.com](https://jekyll-themes.com){: target="_blank"}
+In this eassey blog seris i will look at mise en scene, cinematography, editing and sound in a selection of movies and ask the question, How do the realate and complement the ideas and themes of the movie.   
