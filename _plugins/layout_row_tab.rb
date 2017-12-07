@@ -30,9 +30,10 @@ class LayoutRow < Liquid::Tag
     
     iterEnd = 0
     if sitePosts.length - 1 > start + cols
-      iterEnd = start + cols
+        iterEnd = start + cols
       else
-      iterEnd = sitePosts.length - 1
+        iterEnd = sitePosts.length - 1
+        cols = iterEnd - start
     end
     
     output = ""
