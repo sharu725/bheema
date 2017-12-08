@@ -56,9 +56,11 @@ class LayoutRow < Liquid::Tag
       
       output += "style=\"background-image:url(#{baseUrl}/img/#{data["img"]});\">\n"
       output += "<p class=\"news-title\">#{data["title"]}</p>\n"
-      #Fix this by stripping the html from the excerpt.
       excerptHtml = post.data["excerpt"]
-      excerpt = "#{excerptHtml}".gsub(/<\/?[^>]*>/, "")[0..80]
+      
+      template = Liquid::Template.parse(" {{ \"#{excerptHtml}\" | strip_html | truncate: 80 }}")
+      excerpt = template.render
+      
       output += "<p class=\"news-exp\">#{excerpt}</p>\n"
       output += "</div>\n"
       output += "</a>\n"
