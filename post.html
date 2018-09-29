@@ -1,0 +1,26 @@
+---
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="container partition">
+{% include nav-page.html %}
+{% if page.img %}
+<div class="page-image" style="background-image: url({{site.baseurl}}/img/{{page.img}})"></div>
+{% else %}
+{% endif %}
+       <div class="row" style="margin-top: 2em">
+        <div class="container page-container">
+       
+           <h1 class="page-title">{{page.title}}</h1>
+         
+          {{ content }}
+          
+          </div>
+    </div>
+{% include footer.html %}
+</div>
+
+</body>
+</html>

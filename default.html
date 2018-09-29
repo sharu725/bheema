@@ -1,0 +1,22 @@
+---
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="container bg">
+<div class="row head-row">
+     <header class="header twelve columns" style="background-image: url({{site.baseurl}}/img/paper-15.png);background-image: url({{site.baseurl}}/img/paper-15.png),linear-gradient(120deg, #f1dc48, #cc274d);">
+        <a href="{{site.baseurl}}/"><h1 class="headline">{{page.title}}</h1></a>
+     </header>
+ </div>
+{% include nav-home.html %}
+ 
+  {{ content }}
+  
+{% include footer.html %}
+</div>
+
+
+</body>
+</html>
