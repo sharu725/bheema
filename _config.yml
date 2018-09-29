@@ -1,10 +1,10 @@
 #Created by webjeda - http://webjeda.com
 
-title:none  #Keep it short
+title:  #Keep it short
 email: vanithakbgowda@gmail.com
 
 
-baseurl: /TravellingIsMyPassion
+#baseurl: /TravellingIsMyPassion
 
 sass:
  style: compressed
