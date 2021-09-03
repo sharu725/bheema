@@ -1,0 +1,17 @@
+I"l<p>Use the guide to prepare good looking posts!</p>
+
+<h2 id="image">Image</h2>
+
+<ul>
+  <li>Use image of any size.</li>
+  <li>Keep them inside <code class="language-plaintext highlighter-rouge">img</code> folder.</li>
+  <li>Mention image name in the front matter as shown below</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-yml" data-lang="yml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">Some</span><span class="nv"> </span><span class="s">title"</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">some category</span>
+<span class="na">img</span><span class="pi">:</span> <span class="s">image-name.jpg</span>
+<span class="nn">---</span></code></pre></figure>
+:ET
